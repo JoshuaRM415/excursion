@@ -2,6 +2,16 @@ h1, h2, h3 {
     color:white;
 }
 
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+p {
+    font-size: 21px;
+    color:gray;
+}
+
 body {
     background-color:black;
     text-align: center;
@@ -24,4 +34,8 @@ body {
 footer {
     color:grey;
     text-align: right;
+}
+
+#phone-outline {
+    margin-top: 20px;
 }
