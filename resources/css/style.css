@@ -1,6 +1,8 @@
+h1, h2, h3 {
+    color:white;
+}
 
 body {
-    
     background-color:black;
     text-align: center;
     font-family: Verdana;
@@ -13,8 +15,13 @@ body {
     text-align: center;
 }
 
-#coming-soon-link {
+.coming-soon-link {
     color:aquamarine;
     font-size: 16px;
     text-decoration: underline;
+}
+
+footer {
+    color:grey;
+    text-align: right;
 }
