@@ -1,3 +1,9 @@
+body {
+    background-color:black;
+    text-align: center;
+    font-family: Verdana;
+}
+
 h1, h2, h3 {
     color:white;
 }
@@ -12,11 +18,6 @@ p {
     color:gray;
 }
 
-body {
-    background-color:black;
-    text-align: center;
-    font-family: Verdana;
-}
 
 #main-header {
     font-weight: normal;

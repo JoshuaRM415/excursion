@@ -11,10 +11,12 @@
     <p class="coming-soon-link">Download Excursion (Coming Soon)</p>
 
     <!-- Alt text doesnt work/ is not visible. 
-    Video also doesnt autoplay despite having the argument. 
+    Safari does not allow videos to autoplay unless the video is muted. 
+    One way around it is to add a script tag that grabs the <video> tag 
+    and changed the 'play' attribute.
     Also feels like the body could be sectioned more with 
     semantically meaningful tags.-->
-    <video autoplay>
+    <video autoplay muted>
         <source src="/resources/videos/excursion.mp4">
         Video of various nature landscapes you could expierence if you use the Excursion app.
     </video>
