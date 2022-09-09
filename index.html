@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -8,7 +9,10 @@
   </head>
   <body>
     <h1 id="main-header">Discover hidden places in the world around you</h1>
-    <p class="coming-soon-link">Download Excursion (Coming Soon)</p>
+    <!-- Codecademy solution has a <p><a></a></p> set up for the coming soon 
+      link. They put '#' for the href argument. The <a> tage creates the 
+        underlining. We used css to create underline. -->
+    <p><a class="coming-soon-link" href='#'>Download Excursion (Coming Soon)</a></p>
 
     <!-- Alt text doesnt work/ is not visible. 
     Safari does not allow videos to autoplay unless the video is muted. 
@@ -16,8 +20,9 @@
     and changed the 'play' attribute.
     Also feels like the body could be sectioned more with 
     semantically meaningful tags.-->
-    <video autoplay muted>
-        <source src="./resources/videos/excursion.mp4">
+    <video autoplay muted loop>
+      <!-- //forgot to add the type attribute-->
+        <source src="./resources/videos/excursion.mp4" type="video/mp4">
         Video of various nature landscapes you could expierence if you use the Excursion app.
     </video>
     <h2>Your personal travel guide</h2>
@@ -25,9 +30,11 @@
     <img alt='Two tents with light coming out of them in the dirt with the sunset or sunrise in the backgound.' src='./resources/images/camp.jpeg'>
     <!-- white phone image is too close to camp image. -->
     <br>
+    <!-- I used css to create spacing. Codecademy solution wraps the <img> tag in a <p> tag. <p><img></p>-->
     <img id=phone-outline alt='white outline of cellphone' src='./resources/images/phone.png'>
     <h2>Coming Soon for iPhone and Android</h2>
-    <p class="coming-soon-link">Download Excursion (Coming Soon)</p>
+    <p><a class="coming-soon-link" href='#'>Download Excursion (Coming Soon)</a></p>
+    <!-- Solution uses <p>&copy; Excusrion</p> to make the copyright symbol. -->
     <footer>© Excursion</footer>
   </body>
 </html>

@@ -1,11 +1,13 @@
+/* Codecademy solution adds the white color for the body 
+and just overrides the color for aquamarine and grey. Less Selectors. 
+
+initially had text being centered in multiple selectors. Only need to do 
+it with the body. Everything is centered anyway. */
 body {
     background-color:black;
     text-align: center;
     font-family: Verdana;
-}
-
-h1, h2, h3 {
-    color:white;
+    color: white;
 }
 
 h2 {
@@ -13,27 +15,27 @@ h2 {
     font-size: 42px;
 }
 
+/* Style all <p> tags as grey instead of individually making rules for any 
+sentence or for the copyright footer. */
 p {
     font-size: 21px;
     color:gray;
 }
-
-
+/* I initally ID'd the main header with a name but there is only one <h1>
+ tag. So the id name is kind of pointless. Be aware when there is only one 
+ use of a tag in a file. Less work naming everything. */
 #main-header {
     font-weight: normal;
     font-size: 50px;
-    color: white;
-    text-align: center;
 }
 
 .coming-soon-link {
     color:aquamarine;
     font-size: 16px;
-    text-decoration: underline;
+    /* no underlining styling. just use <a> */
 }
 
 footer {
-    color:grey;
     text-align: right;
 }
 
